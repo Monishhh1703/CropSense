@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Crop Disease</title>
+</head>
+<body>
+    <header>
+        <h1>Crop Disease</h1>
+        <nav>
+            <ul>
+                <li><a class="nav-link" href="login.html">Login</a></li>
+                <li><a class="nav-link" href="register.html">Register</a></li>
+                <li><a class="nav-link" href="#about-us">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="slideshow">
+        <div class="slide active">
+            <img src="slide1.jpg" alt="Crop 1">
+            <div class="caption">
+                <h2>Crop disease and pest detection: </h2>
+		<p>Where science sharpens its gaze to safeguard the harvest and nurture abundance</p>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="slide2.jpg" alt="Crop 2">
+            <div class="caption">
+                <h2>"In the dance between pests and plants, detection becomes the choreographer, orchestrating a balanced ecosystem."</h2>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="slide3.jpg" alt="Crop 2">
+            <div class="caption">
+                <h2>Amidst the green, detecting the unseen: </h2>
+		<p>A journey of discovery and protection for every leaf and stem</p>
+            </div>
+        </div>
+        <div class="slide-buttons">
+            <button class="prev-btn"><<</button>
+            <button class="next-btn">>></button>
+        </div>
+    </section>
+<main>
+    <div class="button-container">
+        <div class="button-group">
+            <button id="crop-disease-btn" class="button">Crop Disease</button>
+        </div>
+        <div class="button-group">
+            <button id="Research-analysis-btn" class="button">Research Analysis</button>
+            
+        </div>
+    </div>
+    <div id="about-us" class="about-us">
+        <div class="column">
+            <img src="nidhi_ghatge.jpeg" alt="Nidhi Ghatge"style="width: 200px; height: 200px;">
+            <p>Nidhi Ghatge</p>
+        </div>
+        <div class="column">
+            <img src="monish.jpg" alt="Monish DP" style="width: 200px; height: 200px;">
+            <p>Monish DP</p>
+        </div>
+        <div class="column">
+            <img src="shreya_h.jpeg" alt="Shreya H"style="width: 200px; height: 200px;">
+            <p>Shreya H</p>
+        </div>
+        <div class="column">
+            <img src="sandeep.jpg" alt="Sandeep R"style="width: 200px; height: 200px;">
+            <p>Sandeep</p>
+        </div>
+    </div>
+    
+</main>
+<footer>
+    <p>&copy; 2024 Crop Disease. All rights reserved.</p>
+</footer>
+
+
+    <script src="script.js"></script>
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  intent="WELCOME"
+  chat-title="Agri_Bot"
+  agent-id="ce81a526-31f9-457c-afa5-e79c52be8fa1"
+  language-code="en"
+></df-messenger>
+</body>
+</html>
